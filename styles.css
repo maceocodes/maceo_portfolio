@@ -1,0 +1,27 @@
+
+body {
+    text-align: center;
+ 
+}
+
+.home_image {
+    width: 75%;
+    height: auto;
+   
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* This applies for large monitors */
+
+@media (min-width: 1000px) {
+
+    .home_image {
+        max-width: 500px;
+        height: auto;
+    }
+    
+    
+    }
