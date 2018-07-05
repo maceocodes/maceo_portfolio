@@ -1,27 +1,46 @@
+/* Main styles  */
 
-body {
+.page_title{
     text-align: center;
- 
 }
 
-.home_image {
-    width: 75%;
-    height: auto;
-   
+.main_nav {
+    position: absolute;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+    top: 40%;
+    height: 100px;
+    
 }
 
 ul {
     list-style-type: none;
-}cd
+}
 
-/* This applies for large monitors */
+.home_image {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;;
+}
 
-@media (min-width: 1000px) {
+
+/* Large monitor breakpoint */
+@media only screen and (min-width: 1000px) {
 
     .home_image {
         max-width: 500px;
         height: auto;
     }
     
-    
     }
+
+    /* Workpage Styles */
+    /*Limits all portfolio image sizes to 300px*/
+    .portfolio img{              
+        max-width: 300px;
+        height: none;
+        float: right;
+        }
