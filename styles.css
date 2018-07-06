@@ -1,46 +1,12 @@
-/* Main styles  */
-
-.page_title{
+.page_title {
+    font-size: 4em;
     text-align: center;
-}
-
-.main_nav {
-    position: absolute;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 0;
-    top: 40%;
-    height: 100px;
-    
-}
-
-ul {
-    list-style-type: none;
+    margin-bottom: .5em;
+    margin-top: 5.5em;
 }
 
 .home_image {
     display: block;
-    max-width: 80%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;;
+    margin: auto;
+    max-width: 90%;
 }
-
-
-/* Large monitor breakpoint */
-@media only screen and (min-width: 1000px) {
-
-    .home_image {
-        max-width: 500px;
-        height: auto;
-    }
-    
-    }
-
-    /* Workpage Styles */
-    /*Limits all portfolio image sizes to 300px*/
-    .portfolio img{              
-        max-width: 300px;
-        height: none;
-        float: right;
-        }
