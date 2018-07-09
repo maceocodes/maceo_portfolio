@@ -1,8 +1,38 @@
-.page_title {
+
+
+body {
+    background-color: #f3f3f3;
+}
+ul {
+    text-align: center;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 4em;
+    
+}
+
+li {
+    display: inline-block;
+    font-size: 3.5em;
+    margin-left: .3em;
+    margin-right: .3em;
+    font-family: arial; 
+}
+
+li a {
+    color: #413e3e;
+    text-decoration: none;
+}
+
+
+/* Index page styles */
+.index_title {
     font-size: 4em;
     text-align: center;
-    margin-bottom: .5em;
     margin-top: 5.5em;
+    margin-bottom: .5em;   
+    font-family: arial; 
+    color: #413e3e;
 }
 
 .home_image {
@@ -10,3 +40,128 @@
     margin: auto;
     max-width: 90%;
 }
+
+
+/* Basic work page styles */
+
+.portfolio_image {
+    display: block;
+    margin: auto;
+    margin-bottom: 1em;
+    width: 90%;
+}
+
+.work_title {
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: 0;
+    margin-top: 1.5em;
+    font-family: arial; 
+    color: #413e3e;
+}
+
+
+/* Connect page styles */
+.connect_title {
+    font-size: 4em;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: .5em;   
+    font-family: arial; 
+    color: #413e3e;
+}
+
+.form_div {
+    text-align: center;
+    font-size: 3.5em;
+}
+
+input,
+textarea {
+    font-size: 1.3em;
+    max-width: 70%;
+    font-family: arial;
+}
+
+
+
+.submit {
+    font-size: 1em;
+    font-family: arial; 
+    width: 5em;  
+    height: 2em; 
+    margin-top: .5em; 
+}
+
+.input {
+    margin-top: .5em;
+}
+
+
+
+/* Large monitor viewports */
+@media only screen and (min-width: 1000px) {
+
+
+/* Index page styles for large viewports */
+.index_title {
+    margin-top: 2.5em; 
+    font-size: 2.9em;     
+}
+
+.home_image {
+    max-width: 30%;
+    height: auto;
+}
+
+
+/* Work page styles for large viewports */
+.header_div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 1.5em;
+}
+.work_title {
+    font-size: 3em;
+    margin-top: 1.8em;
+}
+
+li {
+    display: block;
+    font-size: 1.5em; 
+}
+
+.work_div {
+    display: flex;
+}
+
+.portfolio_div {
+    margin-top: 8em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.portfolio_image {
+    width: 30%;
+    margin: 0;
+}
+
+/* Connect page styles for large viewports */
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
