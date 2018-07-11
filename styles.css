@@ -24,6 +24,9 @@ li a {
     text-decoration: none;
 }
 
+.main_img {
+    display: none;
+}
 
 /* Index page styles */
 .index_title {
@@ -150,6 +153,12 @@ li {
     margin: 0;
 }
 
+.main_img {
+    display: block;
+    width: 50%;
+    height: auto;
+    float: right;
+}
 /* Connect page styles for large viewports */
 
 
