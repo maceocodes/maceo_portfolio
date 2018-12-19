@@ -173,20 +173,12 @@ li {
     color: #413e3e;
 }
 
-.form_div {
-    text-align: left;
-    margin-left: 2.5em;
-    font-size: 1em;
-}
-
 input,
 textarea {
     font-size: 1.3em;
-    max-width: 70%;
+    max-width: 50%;
     font-family: arial;
 }
-
-
 
 .submit {
     font-size: 1em;
@@ -200,6 +192,40 @@ textarea {
     margin-top: .5em;
 }
 
+.header_div {
+    text-align: center;
+    margin-top: 5.5em;
+    margin-bottom: .5em;   
+    font-family: arial; 
+    color: #413e3e;
+}
+
+.connect_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_div {
+    margin-top: .5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 1em;
+    font-size: 2em;
+    margin-left: 5em;
+    text-align: left;
+}
+
+.connect_img {
+    padding-top: 10em;
+    margin-right: 5em;
+    display: block;
+    max-width: 40%;
+    height: auto;
+    float: right;
+}
 
 
 
@@ -211,4 +237,5 @@ textarea {
 
 
 
- 
+
+
