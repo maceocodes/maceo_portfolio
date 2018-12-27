@@ -1,7 +1,7 @@
 const current = document.querySelector('#current');
-const imgs = document.querySelectorAll('.portfolio_image');
+const imgs = document.querySelectorAll('.thumb_image');
 
-imgs.forEach(portfolio_image => 
-    portfolio_image.addEventListener('click', e => (current.src =
+imgs.forEach(thumb_image => 
+    thumb_image.addEventListener('click', e => (current.src =
     e.target.src))
 );
