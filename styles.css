@@ -162,12 +162,20 @@ li {
     margin-top: .5em;
     margin-right: 3em;
     margin-left: 3em;
-
+    max-width: 45%;
 }
 
 .thumb_image {
-    width: 20%;
+    max-width: 20%;
     margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main_img_div {
+    display: flex;
+    max-width: 40%;
 }
 
 .main_img {
@@ -178,9 +186,8 @@ li {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 20%;
+    max-width: 100%;
     height: auto;
-    float: right;
 }
 /* Connect page styles for large viewports */
 
