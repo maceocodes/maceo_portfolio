@@ -156,26 +156,19 @@ li {
 .portfolio_thumb_div {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    align-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: .5em;
     margin-right: 3em;
     margin-left: 3em;
-    max-width: 45%;
+    max-width: 50%;
+
 }
 
 .thumb_image {
     max-width: 20%;
     margin: 0;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.main_img_div {
-    display: flex;
-    max-width: 40%;
 }
 
 .main_img {
